@@ -11,7 +11,6 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
   function handleKeywordChange(event) {
-    console.log(event.target.value);
     setKeyword(event.target.value);
   }
   function Search(event) {
